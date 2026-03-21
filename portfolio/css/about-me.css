@@ -74,3 +74,126 @@ header nav li a{
 header nav li #orangeSlash {
     color: var(--orange);
 }
+
+
+/* Main Content */
+.main-content {
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: var(--font-main);
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: var(--black);
+}
+
+/* About Section */
+.about-section {
+    margin-bottom: 60px;
+}
+
+#orangeSlash {
+    color: var(--orange);
+}
+
+.about-content {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.profile-photo {
+    display: flex;
+    flex: 0 0 300px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px
+}
+
+.profile-photo img {
+    width: 100%;
+    max-width: 300px;
+    border: 6px solid var(--black);
+    border-radius: 5px;
+}
+
+.download-btn {
+    font-family: var(--font-main);
+    font-size: var(--fs-base);
+    font-weight: bold;
+    background-color: transparent;
+    
+    border: 3px solid var(--orange);
+    color: var(--black);
+    padding: 12px 25px;
+    cursor: pointer;
+
+    margin: 0 auto 20px auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.download-btn:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+/* right side (text) */
+.about-info {
+    flex: 1;
+}
+
+.about-info h2 {
+    font-size: var(--fs-lg);
+    margin-bottom: 5px;
+}
+
+.about-info .highlight {
+    color: var(--orange);
+}
+
+.about-info h3 {
+    font-size: var(--fs-md);
+    margin-bottom: 20px;
+    color: var(--gray);
+}
+
+.description {
+    margin-bottom: 30px;
+    text-align: justify
+}
+
+.personal-details {
+    margin-bottom: 30px;
+}
+
+.detail-row {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.detail-row .label {
+    font-weight: bold;
+    width: 150px; 
+}
+
+.social-icons {
+    display: flex;
+    gap: 25px;
+}
+
+.social-icons a {
+    color: var(--black);
+    font-size: var(--fs-xxl);
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: var(--orange);
+}
