@@ -78,13 +78,7 @@ label {
     font-size: var(--fs-base-lg);
 }
 
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="date"],
-input[type="url"],
-select,
-textarea {
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="url"], select, textarea {
     padding: 10px;
     border: 3px solid var(--black);
     border-radius: 5px;
@@ -93,9 +87,7 @@ textarea {
     background-color: var(--white);
 }
 
-input:focus,
-select:focus,
-textarea:focus {
+input:focus, select:focus, textarea:focus {
     outline: none;
     border-color: var(--orange);
     background-color: var(--white);
@@ -122,7 +114,7 @@ textarea:focus {
 
 .radio-group label {
     font-weight: normal;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .radio-item {
@@ -131,7 +123,7 @@ textarea:focus {
     gap: 8px;
 }
 
-.radio-item label{
+.radio-item label {
     font-size: var(--fs-sm);
 }
 
@@ -167,7 +159,7 @@ input[type="radio"] {
 .other-gender-item #others {
     margin-left: 26px;
     width: 220px;
-    padding: 5px 5px;
+    padding: 5px;
     border: 2px solid var(--black);
 }
 
