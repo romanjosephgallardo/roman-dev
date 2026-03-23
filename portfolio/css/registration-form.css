@@ -31,6 +31,18 @@
     font-style: italic;
 }
 
+/* Full Name Inputs */
+.full-name-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+.name-input-field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Form Sections */
 .form-section {
     background-color: var(--white);
@@ -169,6 +181,24 @@ input[type="radio"] {
     width: 220px;
     padding: 5px;
     border: 2px solid var(--black);
+}
+
+/* Disabilities items */
+#disabilitiesItems .radio-item label {
+    font-size: 12px;
+    line-height: 1.35;
+}
+
+#disabilitiesItems .radio-item {
+    align-items: flex-start;
+    gap: 8px;
+}
+
+#disabilitiesItems input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    margin-top: 2px;
+    flex-shrink: 0;
 }
 
 /* File Upload */
