@@ -186,3 +186,25 @@ footer {
     color: var(--orange);
 }
 
+
+/* Temporary Message for other devices screen size */
+@media (max-width: 1024px), (min-width: 1920px) {
+    body > * {
+        display: none !important;
+    }
+
+    body::before {
+        content: "Responsive layout in progress. Best viewed on desktop";
+        position: fixed;
+        inset: 0;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+        text-align: center;
+        color: var(--black);
+        background: var(--tan);
+        font-family: var(--font-main), monospace;
+        font-size: var(--fs-md);
+        line-height: 1.5;
+    }
+}
