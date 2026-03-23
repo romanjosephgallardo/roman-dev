@@ -33,6 +33,17 @@ body {
     background: var(--tan)
 }
 
+.section-title {
+    font-size: var(--fs-lg);
+    margin-bottom: 30px;
+    color: var(--black);
+    font-family: var(--font-main);
+}
+
+#orangeSlash {
+    color: var(--orange);
+}
+
 .divider {
     border: none;
     height: 3px;

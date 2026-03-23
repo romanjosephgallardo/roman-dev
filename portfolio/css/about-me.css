@@ -6,19 +6,9 @@
     font-family: var(--font-main);
 }
 
-.section-title {
-    font-size: 24px;
-    margin-bottom: 30px;
-    color: var(--black);
-}
-
 /* About Section */
 .about-section {
     margin-bottom: 60px;
-}
-
-#orangeSlash {
-    color: var(--orange);
 }
 
 .about-content {
