@@ -23,6 +23,9 @@ This is my personal portfolio as a Computer Engineering student. Designed to be 
 - Started the portfolio project with HTML and CSS
 - Added “About Me” section with Header and Footer.
 
+### V0.1.1 — 23 Mar 2026
+- Added "Join My Team" form
+
 ---
 
 ## Tech Stack
