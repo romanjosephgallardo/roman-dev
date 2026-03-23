@@ -1,7 +1,7 @@
 # roman.dev (personal portfolio) - [WIP]
 
 > A personal portfolio website started to built with HTML, CSS, and vanilla JS.  
-> Currently a **work in progress** ...
+> Currently **work in progress** ...
 
 ---
 
@@ -17,14 +17,19 @@ This is my personal portfolio as a Computer Engineering student. Designed to be 
 
 ---
 
-## Work Log
+## Work Log 
 
-### v0.1.0 — 21 Mar 2026
+### Development Progress
+**v0.1.0** — 21 Mar 2026
 - Started the portfolio project with HTML and CSS
 - Added “About Me” section with Header and Footer.
 
-### V0.1.1 — 23 Mar 2026
+**v0.1.1** — 23 Mar 2026
 - Added "Join My Team" form
+- Added 404 page
+- Added Homepage
+
+### Deployment Progress (Soft launch)
 
 ---
 
