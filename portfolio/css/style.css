@@ -10,7 +10,8 @@
     /* Font Size */
     --fs-xs: 13px;
     --fs-sm: 14px;
-    --fs-base: 16px; 
+    --fs-base: 16px;
+    --fs-base-lg: 18px; 
     --fs-md: 20px;
     --fs-lg: 25px;
     --fs-xl: 31px;
