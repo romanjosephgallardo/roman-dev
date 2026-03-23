@@ -11,26 +11,6 @@
     margin: 0 auto;
 }
 
-.intro-text {
-    text-align: center;
-    font-size: var(--fs-md);
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-.form-title {
-    color: var(--orange);
-    font-size: var(--fs-lg);
-    font-weight: bolder;
-    margin-bottom: 5px;
-}
-
-.form-subtitle {
-    font-size: var(--fs-sm);
-    margin-bottom: 30px;
-    font-style: italic;
-}
-
 /* Full Name Inputs */
 .full-name-inputs {
     display: flex;
@@ -50,6 +30,7 @@
     padding: 30px;
     margin-bottom: 30px;
 }
+
 .form-section h2 {
     color: var(--orange);
     font-size: var(--fs-xl);
@@ -65,12 +46,8 @@
     font-size: var(--fs-md);
     font-weight: bold;
     margin-bottom: 30px;
-    padding: 10px 0px 30px 0px;
+    padding: 10px 0 30px 0;
     border-bottom: 2px solid var(--black);
-}
-
-.section-icon {
-    font-size: 20px;
 }
 
 /* Form Grid */
@@ -96,8 +73,9 @@ label {
     font-size: var(--fs-base-lg);
 }
 
-input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="url"], 
-input[type="city"], input[type="stateProvince"], select, textarea {
+/* Form Inputs */
+input[type="text"], input[type="email"], input[type="tel"],
+input[type="date"], input[type="url"], select, textarea {
     padding: 10px;
     border: 3px solid var(--black);
     border-radius: 5px;
@@ -105,7 +83,6 @@ input[type="city"], input[type="stateProvince"], select, textarea {
     font-size: 14px;
     background-color: var(--white);
 }
-
 
 input:focus, select:focus, textarea:focus {
     outline: none;
@@ -117,11 +94,6 @@ input:focus, select:focus, textarea:focus {
     font-size: 12px;
     color: var(--black);
     margin-top: 5px;
-}
-
-.placeholder-text {
-    color: var(--gray);
-    font-style: italic;
 }
 
 /* Radio Buttons */
@@ -162,28 +134,7 @@ input[type="radio"] {
     flex: 1;
 }
 
-/* other typings */
-.other-gender-item {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 6px;
-}
-
-.other-gender-row {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.other-gender-item #others {
-    margin-left: 26px;
-    width: 220px;
-    padding: 5px;
-    border: 2px solid var(--black);
-}
-
-/* Disabilities items */
+/* Disabilities Section */
 #disabilitiesItems .radio-item label {
     font-size: 12px;
     line-height: 1.35;
