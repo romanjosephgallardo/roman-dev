@@ -194,7 +194,7 @@ footer {
     }
 
     body::before {
-        content: "Responsive layout in progress. Best viewed on desktop";
+        content: "Responsive layout in progress. Best viewed on desktop.";
         position: fixed;
         inset: 0;
         display: grid;
