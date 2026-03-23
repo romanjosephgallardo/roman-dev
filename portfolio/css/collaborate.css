@@ -131,6 +131,10 @@ textarea:focus {
     gap: 8px;
 }
 
+.radio-item label{
+    font-size: var(--fs-sm);
+}
+
 input[type="radio"] {
     width: 18px;
     height: 18px;
@@ -160,7 +164,6 @@ input[type="radio"] {
     gap: 8px;
 }
 
-/* optional gender */
 .other-gender-item #others {
     margin-left: 26px;
     width: 220px;
@@ -175,7 +178,6 @@ input[type="radio"] {
     text-align: center;
     background-color: var(--white);
     cursor: pointer;
-    transition: border-color 0.3s;
 }
 
 .file-upload:hover {
@@ -222,7 +224,6 @@ textarea {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    transition: all 0.3s;
 }
 
 .submit-btn:hover {
