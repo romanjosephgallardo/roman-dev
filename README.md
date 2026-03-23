@@ -30,6 +30,9 @@ This is my personal portfolio as a Computer Engineering student. Designed to be 
 - Added Homepage
 
 ### Deployment Progress (Soft launch)
+**v0.1.1** — 23 Mar 2026
+- Deployed with 404 page, Homepage, About Me, and Registration Form
+
 
 ---
 
