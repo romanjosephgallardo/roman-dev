@@ -15,6 +15,9 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="../assets/icons/favicon.png">
+
     <title>Collaborate</title>
 </head>
 <body>
@@ -37,7 +40,7 @@
         <h1 class="section-title"><span id="orangeSlash">/</span>collaborate</h1>
         
         <section class="main-form">
-            <p class="intro-text">Interested in collaborating or working together? Join my team.</p>
+            <p class="intro-text">Interested in collaborating or working together? Join my team!</p>
             
             <h2 class="form-title">Employee Registration Form</h2>
             <p class="form-subtitle">All fields are required unless stated otherwise.</p>
@@ -146,32 +149,39 @@
                     <div class="form-row">
                         <div class="form-group">
                             <label>Gender</label>
-                            <div class="radio-group">
-                                <div class="radio-item">
-                                    <input type="radio" id="male" name="gender" value="male" required>
-                                    <label for="male">Male</label>
-                                </div>
-                                <div class="radio-item">
-                                    <input type="radio" id="female" name="gender" value="female">
-                                    <label for="female">Female</label>
-                                </div>
-                                <div class="radio-item">
-                                    <input type="radio" id="preferNot" name="gender" value="prefer-not">
-                                    <label for="preferNot">Prefer not to say</label>
-                                </div>
-                                <div class="radio-item other-gender-item">
-                                    <div class="other-gender-row">
-                                        <input type="radio" id="otherGender" name="gender" value="other">
-                                        <label for="otherGender">Others</label>
+
+                            <div class="radio-row">
+                                <div class="radio-column">
+                                    <div class="radio-group">
+                                        <div class="radio-item">
+                                            <input type="radio" id="male" name="gender" value="male" required>
+                                            <label for="male">Male</label>
+                                        </div>
+                                        <div class="radio-item">
+                                            <input type="radio" id="female" name="gender" value="female">
+                                            <label for="female">Female</label>
+                                        </div>
+                                        <div class="radio-item">
+                                            <input type="radio" id="preferNotGender" name="gender" value="prefer-not">
+                                            <label for="preferNotGender">Prefer not to say</label>
+                                        </div>
                                     </div>
-                                    <input type="text" id="others" name="others" placeholder="Type here...">
+                                </div>
+
+                                <div class="radio-column">
+                                    <div class="radio-group">
+                                        <div class="radio-item other-gender-item">
+                                            <div class="other-gender-row">
+                                                <input type="radio" id="otherGender" name="gender" value="other">
+                                                <label for="otherGender">Others</label>
+                                            </div>
+                                            <input type="text" id="others" name="others" placeholder="Type here...">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
-
                     <div class="form-row">
                         <div class="form-group">
                             <label>Disability</label>
@@ -183,6 +193,10 @@
                                 <div class="radio-item">
                                     <input type="radio" id="disabilityNo" name="disability" value="no">
                                     <label for="disabilityNo">No</label>
+                                </div>
+                                <div class="radio-item">
+                                    <input type="radio" id="preferNot" name="disability" value="no">
+                                    <label for="disabilityNo">Prefer not to say</label>
                                 </div>
                             </div>
                         </div>
