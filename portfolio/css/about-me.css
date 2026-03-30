@@ -97,18 +97,32 @@
 
 .social-icons {
     display: flex;
-    gap: 25px;
+    gap: 10px;
+    align-items: center;
 }
 
 .social-icons a {
-    color: var(--black);
-    font-size: var(--fs-xxl);
-    transition: color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .social-icons a:hover {
-    color: var(--orange);
+    transform: translateY(-2px);
+    opacity: 0.85;
 }
+
+.social-icons img {
+    width: 55px;
+    height: 55px;
+    display: block;
+    object-fit: contain;
+}
+
+.social-icons a:hover img {
+    filter: invert(44%) sepia(97%) saturate(5500%) hue-rotate(0deg) brightness(102%) contrast(105%);
+}
+
 
 /* Skills Section */
 .skills-section {
