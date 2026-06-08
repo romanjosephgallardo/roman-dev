@@ -13,7 +13,7 @@ function loadHeader() {
                     <li><a href="${pagesBase}/page-not-found.html"><span id="orangeSlash">/</span>projects</a></li>
                     <li><a href="${pagesBase}/about-me.html"><span id="orangeSlash">/</span>about_me</a></li>
                     <li><a href="${pagesBase}/page-not-found.html"><span id="orangeSlash">/</span>contact</a></li>
-                    <li><a href="${pagesBase}/collaborate.html"><span id="orangeSlash">/</span>collaborate</a></li>
+                    <li><a href="${pagesBase}/collaborate.php"><span id="orangeSlash">/</span>collaborate</a></li>
                 </ul>
             </nav>
         </header>
