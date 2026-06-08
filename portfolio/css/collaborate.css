@@ -222,3 +222,54 @@ textarea {
     background-color: var(--orange);
     color: var(--white);
 }
+
+/* Submission success (for submit.php)*/
+.submit-success {
+    max-width: 680px;
+    margin: 80px auto;
+    padding: 36px;
+    background: var(--white);
+    border: 3px solid var(--black);
+    text-align: center;
+    font-family: var(--font-main);
+    border-radius: 6px;
+}
+
+.submit-success .icon {
+    font-size: 48px;
+    color: var(--orange);
+    margin-bottom: 10px;
+}
+
+.submit-success h1 {
+    font-size: var(--fs-lg);
+    color: var(--black);
+    margin-bottom: 8px;
+}
+
+.submit-success p {
+    font-size: var(--fs-base);
+    color: var(--gray);
+    margin-bottom: 20px;
+}
+
+/* Button that matches .submit-btn look */
+.back-home-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    color: var(--black);
+    border: 3px solid var(--orange);
+    padding: 12px 22px;
+    font-family: var(--font-main);
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.back-home-btn:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}

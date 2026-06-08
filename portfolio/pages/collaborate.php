@@ -35,7 +35,7 @@
             <h2 class="form-title">Become a Collaborator</h2>
             <p class="form-subtitle">All fields are required unless stated otherwise.</p>
 
-            <form action="#" method="POST" enctype="multipart/form-data">
+            <form action="submit.php" method="POST" enctype="multipart/form-data">
 
                 <!-- Personal Information -->
                 <div class="form-section">
@@ -185,7 +185,7 @@
                                     <label for="disabilityNo">No</label>
                                 </div>
                                 <div class="radio-item">
-                                    <input type="radio" id="preferNot" name="disability" value="no">
+                                    <input type="radio" id="preferNot" name="disability" value="prefer-not">
                                     <label for="disabilityNo">Prefer not to say</label>
                                 </div>
                             </div>
