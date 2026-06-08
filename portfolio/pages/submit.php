@@ -57,6 +57,7 @@ if ($conn->query($sql) === TRUE) {
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width,initial-scale=1">
             <title>Form Submitted</title>
+            <base href="<?= $base ?>">
             <link rel="stylesheet" href="../css/style.css">
             <link rel="stylesheet" href="../css/collaborate.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -67,7 +68,7 @@ if ($conn->query($sql) === TRUE) {
                     <div class="icon"><i class="fa-solid fa-circle-check"></i></div>
                     <h1>Thank you — submission received!</h1>
                     <p>We received your application. Ika-contact ka namin kapag may update.</p>
-                    <a class="back-home-btn" href="../index.html"><i class="fa-solid fa-house"></i> Go back to Home</a>
+                    <a class="back-home-btn" href="/"><i class="fa-solid fa-house"></i> Go back to Home</a>
                 </section>
             </main>
         </body>
