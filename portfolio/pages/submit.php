@@ -64,10 +64,10 @@ if ($conn->query($sql) === TRUE) {
         <body>
             <main class="main-content">
                 <section class="submit-success" role="status" aria-live="polite">
-                <div class="icon"><i class="fa-solid fa-circle-check"></i></div>
-                <h1>Thank you — submission received</h1>
-                <p>We received your application. Ika-contact ka namin kapag may update.</p>
-                <a class="back-home-btn" href="../index.html"><i class="fa-solid fa-house"></i> Go back to Home</a>
+                    <div class="icon"><i class="fa-solid fa-circle-check"></i></div>
+                    <h1>Thank you — submission received!</h1>
+                    <p>We received your application. Ika-contact ka namin kapag may update.</p>
+                    <a class="back-home-btn" href="../index.html"><i class="fa-solid fa-house"></i> Go back to Home</a>
                 </section>
             </main>
         </body>
